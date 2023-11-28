@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <MaxWidthWrapper className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
         <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-          <p className="text-sm font-semibold text-gray-700">Kwill is now public!</p>
+          <p className="text-sm font-semibold text-gray-700">kwil is now public!</p>
         </div>
         <h1 className='max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl'>
           Chat with your <span className="text-blue-600">documents</span> in seconds.
@@ -21,7 +21,7 @@ export default function Home() {
         <Link className={buttonVariants({
           size: 'lg',
           className: 'mt-5'
-        })} href={'/dashboard'} target="_blank">
+        })} href='/dashboard' target="_blank">
           Get Started <ArrowRight className="ml-2 h-5 w-5" />
         </Link>
       </MaxWidthWrapper>
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="mt-2 font-bold text-4xl text-gray-900 sm:text-5xl">Start chatting in minute</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Chatting to your PDF files has never been easier than with Kwill.
+              Chatting to your PDF files has never been easier than with kwill.
             </p>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function Home() {
                 Sign up for an account.
               </span>
               <span className="mt-2 text-zinc-700">
-                Either starting out with a free plan or choose our <Link href={'/pricing'} className="text-blue-700 underline underline-offset-2">pro plan</Link>.
+                Either starting out with a free plan or choose our <Link href='/pricing' className="text-blue-700 underline underline-offset-2">pro plan</Link>.
               </span>
             </div>
           </li>
